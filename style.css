@@ -1,0 +1,196 @@
+
+.index-body {
+        background-image: linear-gradient(to bottom, rgb(255, 231, 211, 0.4), rgb(255, 231, 211, 0.4)), url('https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnnXbKWSYxGcoDwO4umWAsSDT4X8YzpUXa7JxyOTi6tB501D28oZyBIvVX6gKICb6oXAhptETuICM3m_YivFrvg2jNdZxBINHlaN43N_-gIt-rm5J7-Wq3bNXkkowzwbd95Tgz4=s680-w680-h510-rw');     
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.titulo-header {
+    color: #D66C16;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+}
+
+
+
+.conteiner-tópicos {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: nowrap; 
+    gap: 40px;
+    
+    background: #ffe7d3;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.menu-links {
+    display: flex;
+    gap: 12px; 
+    flex-shrink: 0;
+}
+
+.Tópicos {
+    color: #CC5500; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 24px;
+}
+
+
+.historia, .matematica, .cursos, .estufa {
+    background: #ffffff;
+    padding: 5px 5px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    list-style-type: square; 
+    flex: 0 0 auto; 
+    box-sizing: border-box
+    
+
+}
+
+.historia {
+    margin-left: auto;
+}
+
+.historia:hover, .matematica:hover, .cursos:hover, .estufa:hover {
+    transform: translateY(-4px);
+}
+
+.titulo-quem {
+    margin-top: 140px; 
+    text-align: center;
+    color: #D66C16;
+}
+
+.titulo-materias {
+    margin-top: 140px; 
+    text-align: center;
+    color: #D66C16;
+}
+
+.titulo-cursos {
+    margin-top: 140px; 
+    text-align: center;
+    color: #D66C16;
+}
+
+.titulo-estufa {
+    margin-top: 140px; 
+    text-align: center;
+    color: #D66C16;
+}
+
+li {
+    margin: 12px 0;
+}
+
+li::marker {
+    color: #0c4407; 
+    font-size: 1.2rem; 
+    
+}
+
+
+li a {
+    color: #CC5500; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.2s ease; 
+}
+
+a {
+    color: #CC5500; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+
+a:hover {
+    color: #0c4407; 
+    text-decoration: underline; 
+    text-align: center;
+}
+
+.titulo-historia {
+    color: #D66C16; 
+    text-decoration: none; 
+    text-align: center;
+    font-size: 34px;
+}
+
+.historia-text {
+    background: #ffe7d3;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    line-height: 1.6; 
+    color: #d66c16; 
+}
+
+.materias-content {
+    background: #ffe7d3;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    line-height: 1.6; 
+    color: #d66c16; 
+}
+
+.cursos-content {
+    background: #ffe7d3;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    line-height: 1.6; 
+    color: #d66c16; 
+}
+
+.estufa-content {
+    background: #ffe7d3;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    line-height: 1.6; 
+    color: #d66c16; 
+}
+
+.estufa-title {
+    color: #D66C16; 
+    text-decoration: none; 
+    text-align: center;
+    font-size: 34px;
+}
