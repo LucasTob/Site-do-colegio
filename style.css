@@ -17,23 +17,25 @@
 }
 
 .titulo-header {
-    color: #D66C16;
+    color: #d61616;
     font-size: 20px;
-    text-align: left;
+    position: absolute;
     margin: 0;
     white-space: nowrap;
+    top: 40%;
+    left: 10%;
 }
 
 
 
 .conteiner-tópicos {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
     flex-wrap: nowrap; 
     gap: 40px;
-    
-    background: #ffe7d3;
+    right: 50%;
+    background: #c2c2c19d;
     padding: 20px;
     width: 90%;
     margin: 20px auto;
@@ -48,13 +50,11 @@
 }
 
 .Tópicos {
-    color: #CC5500; 
+    color: #d61616; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
     position: absolute;
-    top: 75%;
-    left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-size: 24px;
@@ -84,47 +84,44 @@
 .titulo-quem {
     margin-top: 140px; 
     text-align: center;
-    color: #D66C16;
+    color: #d61616;
 }
 
 .titulo-materias {
     margin-top: 140px; 
     text-align: center;
-    color: #D66C16;
+    color: #d61616;
 }
 
 .titulo-cursos {
     margin-top: 140px; 
     text-align: center;
-    color: #D66C16;
+    color: #d61616;
 }
 
 .titulo-estufa {
     margin-top: 140px; 
     text-align: center;
-    color: #D66C16;
-}
-
-li {
-    margin: 12px 0;
-}
-
-li::marker {
-    color: #0c4407; 
-    font-size: 1.2rem; 
-    
+    color: #d61616;
 }
 
 
 li a {
-    color: #CC5500; 
+    color: #d61616; 
     text-decoration: none; 
     font-weight: bold; 
     transition: color 0.2s ease; 
 }
 
 a {
-    color: #CC5500; 
+    color: #d61616; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.voltar {
+    color: #d61616; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
@@ -132,27 +129,26 @@ a {
 
 
 a:hover {
-    color: #0c4407; 
-    text-decoration: underline; 
-    text-align: center;
+    color: #000000; 
+
 }
 
 .titulo-historia {
-    color: #D66C16; 
+    color: #d61616; 
     text-decoration: none; 
     text-align: center;
     font-size: 34px;
 }
 
 .historia-text {
-    background: #ffe7d3;
+    background: #ffe7d3b0;
     padding: 20px;
     border-radius: 20px;
     text-align: justify; 
     margin: 20px auto; 
     max-width: 800px; 
     line-height: 1.6; 
-    color: #d66c16; 
+    color: #d61616; 
 }
 
 .materias-content {
@@ -163,7 +159,7 @@ a:hover {
     margin: 20px auto; 
     max-width: 800px; 
     line-height: 1.6; 
-    color: #d66c16; 
+    color: #d61616; 
 }
 
 .cursos-content {
@@ -174,7 +170,7 @@ a:hover {
     margin: 20px auto; 
     max-width: 800px; 
     line-height: 1.6; 
-    color: #d66c16; 
+    color: #d61616; 
 }
 
 .estufa-content {
@@ -185,12 +181,36 @@ a:hover {
     margin: 20px auto; 
     max-width: 800px; 
     line-height: 1.6; 
-    color: #d66c16; 
+    color: #d61616; 
 }
 
 .estufa-title {
-    color: #D66C16; 
+    color: #d61616; 
     text-decoration: none; 
     text-align: center;
     font-size: 34px;
+}
+
+
+
+.botao-entrar {
+    color: #ffe7d3; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 24px;
+}
+
+.logo {
+    padding: 5px 5px;
+    width: 50px;
+    height: auto ;
+    left: 5%;
+    position: absolute;
+    border-radius: 60px;
 }
