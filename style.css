@@ -16,6 +16,17 @@
     z-index: 1000;
 }
 
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        display:flex;
+        margin: 5px 0;
+    }
+
+}
+
 .titulo-header {
     color: #d61616;
     font-size: 20px;
