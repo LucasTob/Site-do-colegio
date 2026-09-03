@@ -225,3 +225,14 @@ a:hover {
     position: absolute;
     border-radius: 60px;
 }
+
+.ultimos-topicos {
+    background: #333333;
+    width: 100%;
+    margin-top: 100%;
+}
+
+.UT-hist, .UT-mat, .UT-cur, .UT-est {
+    color: white;
+    
+}
